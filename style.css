@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 1300px;
+  width: 75%;
+  margin: 0 auto;
+}
+nav {
+  background-color: rgb(61, 61, 177);
+  color: white;
+  padding: 1rem 0;
+}
+
+section.input {
+  padding-top: 100px;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.form_wrap {
+  display: flex;
+  justify-content: center;
+}
+.input_wrap {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ddd;
+  margin-top: 20px;
+}
+input {
+  border: none;
+  padding: 5px;
+  font-size: 18px;
+  min-width: 350px;
+  outline: none;
+}
+button {
+  background-color: rgb(225, 77, 77);
+  color: #ddd;
+  height: 100%;
+  padding: 0 20px;
+  cursor: pointer;
+  font-size: 15px;
+  /* border-radius: 0px; */
+}
+
+section.data {
+  max-width: 600px;
+  /* margin: 0 auto; */
+  margin-top: 20px;
+  text-align: center;
+}
+.loading {
+  display: none;
+}
+section.data p.def {
+  color: rgb(68, 59, 59);
+  font-size: 20px;
+  line-height: 1.5;
+  /* background-color: red; */
+}
+.suggested {
+  background-color: aqua;
+  color: #fff;
+  padding: 2px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.audio {
+  margin-top: 20px;
+}
