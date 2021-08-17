@@ -44,7 +44,7 @@ input {
 }
 button {
   background-color: rgb(225, 77, 77);
-  color: #ddd;
+  color: #fff;
   height: 100%;
   padding: 0 20px;
   cursor: pointer;
